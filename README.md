@@ -22,25 +22,6 @@ An intelligent and interactive chatbot designed for an e-commerce platform to as
 
 🌙 Light/Dark mode toggle in UI
 
-# Project Structure
-chatbot-project/
-│
-├── backend/
-│   ├── chatbot_api.py         # FastAPI backend logic
-│   ├── faqs.json              # Local FAQ dataset for fuzzy matching
-│   └── create_tables.py       # Script to initialize DB tables
-│
-├── frontend/
-│   ├── chatbot_ui.py             # Streamlit UI for users
-│   ├── admin_dashboard.py            # Streamlit UI for admin
-│
-├── core/                      # Shared folder for backend and frontend
-│   ├── database.py
-│   └── models.py
-│
-├── requirements.txt           # Project dependencies
-└── README.md                  # Project documentation
-
 # ⚙️ Technologies Used
 1- Python
 
@@ -60,5 +41,14 @@ chatbot-project/
 3- Users can view top products or submit support tickets via the UI.
 
 4- Admins can monitor tickets, orders, and analytics from the dashboard.
+
+# Future Enhancements
+🗣️ Add voice input/output
+
+🌍 Support for multiple languages
+
+🔐 Add user authentication
+
+📱 Mobile responsiveness for UI
 
 
